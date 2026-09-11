@@ -23,7 +23,7 @@
   <main class="layout"><section class="products" id="products" aria-label="Produtos"></section><aside class="cart desktop-cart" aria-label="Carrinho"><div id="cartDesktop"></div></aside></main>
   <button class="floating" id="floatingCart" aria-label="Abrir carrinho"><span><small id="floatingCount">Carrinho vazio</small><strong>Ver meu pedido</strong></span><strong id="floatingTotal">R$ 0,00</strong></button>
   <div class="drawer-wrap" id="drawerWrap" role="dialog" aria-modal="true" aria-label="Seu pedido"><div class="drawer"><div id="cartMobile"></div></div></div>
-  <footer class="footer">MJ Distribuidora · Atendimento pelo WhatsApp</footer>
+  <footer class="footer">MJ Distribuidora · Atendimento pelo WhatsApp<br><a href="dashboard.html" style="display:inline-block;margin-top:8px;color:#fedf89">Controle de entradas e saídas</a></footer>
   <script src="products.js"></script>
   <script>
     const quantities=Object.fromEntries(products.map(p=>[p.id,0]));
